@@ -1,0 +1,23 @@
+git init 
+
+git add -A  
+
+git commit -m "3files added"
+
+git rm --cached file2 
+
+git reset -- file2 
+
+git remote add origin https://github.com/karimAbdel-Qader/SE.git
+
+git push -u origin master
+
+git branch ReadMe
+
+git checkout ReadMe  
+
+git add README.md
+
+git push origin ReadMe
+
+git merge master
